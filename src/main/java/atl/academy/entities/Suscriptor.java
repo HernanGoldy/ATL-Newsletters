@@ -14,4 +14,11 @@ public class Suscriptor {
 
     @Column(name = "email")
     private String email;
+
+    public Suscriptor() {
+    }
+
+    public Suscriptor(String email) {
+        this.email = email;
+    }
 }
