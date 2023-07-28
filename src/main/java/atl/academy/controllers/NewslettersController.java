@@ -6,7 +6,6 @@ Notaciones:
  */
 
 import atl.academy.entities.Suscriptor;
-import atl.academy.repositories.EmailRepository;
 import atl.academy.services.EmailService;
 import atl.academy.validators.EmailValidator;
 import org.springframework.beans.factory.annotation.Autowired;
